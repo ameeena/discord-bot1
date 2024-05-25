@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-server",
+  "version": "1.0.0",
+  "description": "Intermediate Server for the discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameeena/discord-bot1.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Mairaj Ameena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameeena/discord-bot1/issues"
+  },
+  "homepage": "https://github.com/ameeena/discord-bot1#readme",
+  "dependencies": {
+    "discord.js": "^14.15.2"
+  }
+}
