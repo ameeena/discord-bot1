@@ -1,5 +1,5 @@
 
-const {SlashCommandBuilder} = require('@discordjs/builders');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -11,11 +11,11 @@ module.exports = {
     },
 };
 
-async function clearConversation() {
-    try {
-        const response = await axios.get(`${URL}/clearConversation/`);
-        return response.data;
-    } catch (error) {
-        return { response: "I am sorry, I am having trouble right now. Please try again later." };
-    }
-}
+// async function clearConversation() {
+//     try {
+//         const response = await axios.get(`${URL}/clearConversation/`);
+//         return response.data;
+//     } catch (error) {
+//         return { response: "I am sorry, I am having trouble right now. Please try again later." };
+//     }
+// }
